@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="calculatorBody">
+        <div class="display">
+            <input id="result" disabled>
+        </div>
+        <div class="buttons">
+            <div>
+                <input class="btn" type="button" value="(" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="7" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="4" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="1" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="0" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+            </div>
+            <div>
+                <input class="btn" type="button" value=")" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="8" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="5" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="2" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="." onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+            </div>
+            <div>
+                <input class="btn" type="button" value="%" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="9" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="6" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="3" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="=" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+            </div>
+            <div>
+                <input class="btn" type="button" value="C" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="/" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="x" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="-" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+                <input class="btn" type="button" value="+" onclick="this.style.borderColor='red';getvalue(this)" onmouseleave="this.style.borderColor='black'">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
